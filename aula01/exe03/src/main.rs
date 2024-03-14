@@ -1,5 +1,6 @@
 mod produto;
 mod vetor;
+
 use produto::Produto;
 use text_io::*;
 use vetor::Vetor;
@@ -16,6 +17,7 @@ fn main() {
                 println!("Nome do produto: ");
                 let nome: String = read!();
                 println!("Valor do produto: ");
+
                 let valor: f64 = read!();
                 vetor.cadastrar(Produto::new(nome, valor));
             }

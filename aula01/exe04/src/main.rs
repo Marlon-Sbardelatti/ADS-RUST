@@ -45,5 +45,3 @@ fn remover(queue: &mut Queue<String>) -> bool {
     }
     false
 }
-
-

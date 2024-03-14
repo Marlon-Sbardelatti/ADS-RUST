@@ -1,5 +1,4 @@
 use text_io::*;
-
 fn main() {
     let mut arr: [String; 5] = Default::default();
     let mut index: usize = 0;
